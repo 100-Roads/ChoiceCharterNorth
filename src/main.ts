@@ -27,7 +27,7 @@ WA.onInit().then(() => {
   WA.room.onLeaveLayer("floor").subscribe(() => {
       WA.room.showLayer("roof");
       WA.room.showLayer("walls-bg-front");
-      WA.room.showLayer("facade-furniture-bg");
+      WA.room.showLayer("sign");
     });
 
     WA.room.onEnterLayer("rooms_floor").subscribe(() => {
